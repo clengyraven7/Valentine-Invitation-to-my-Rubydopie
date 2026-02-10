@@ -1,0 +1,104 @@
+// Basic Information
+valentineName: "Rubydopie"                    // Your Valentine's name
+pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+
+// Floating Background Elements
+floatingEmojis: {
+    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
+    bears: ['🧸', '🐻']                       // Bear emojis in background
+}
+
+// Questions and Buttons
+questions: {
+    first: {
+        text: "Will You Be My Valentine?",                   // First question
+        yesBtn: "Yes!",                             // Yes button text
+        noBtn: "No",                               // No button text
+        secretAnswer: "I wanna be yours forever, I love you! ❤️"  // Hidden message
+    },
+    second: {
+        text: "How much do you love me?",          // Second question
+        startText: "This much!",                   // Text before percentage
+        nextBtn: "Next ❤️"                         // Next button text
+    },
+    third: {
+        text: "Will you please be my Valentine...?",      // Third question
+        yesBtn: "YES!",                            // Yes button text
+        noBtn: "No"                                // No button text
+    },
+    fourth: {
+        text: "sige na please?",      // Fourth question
+        yesBtn: "YES NA!",                            // Yes button text
+        noBtn: "DI DIAY KO"                                // No button text
+    },
+    fifth: {
+        text: "dili gihapon ka?",      // Fifth question
+        yesBtn: "GANAHAN NA!",                            // Yes button text
+        noBtn: "DI GIHAPON KO BLE"                                // No button text
+    },
+    sixth: {
+        text: "ahh so dili jud ka?",      // Sixth question
+        yesBtn: "YES NA YES!",                            // Yes button text
+        noBtn: "DELE KOOOOO"                                // No button text
+    },
+    seventh: {
+        text: "so di najud ka ha?",      // Seventh question
+        yesBtn: "GANAHAN NAKOOO!",                            // Yes button text
+        noBtn: "DELE LAGE KOOOOO"                                // No button text
+    },
+    eighth: {
+        text: "sure najud kas imo desisyon sa life?",      // Eighth question
+        yesBtn: "A BIG YES!",                            // Yes button text
+        noBtn: "DELE LAGE KOOOOO"                                // No button text
+    },
+    ninth: {
+        text: "sure najud kas imo desisyon sa life?",      // ninth question
+        yesBtn: "A BIG YES!",                            // Yes button text
+        noBtn: "DELE LAGE KOOOOO"                                // No button text
+    },
+    tenth: {
+        text: "I'll ask you one last time. Will You Be My Valentine?",      // ninth question
+        yesBtn: "YES NA BABY KOOO!",                            // Yes button text
+       
+}
+
+// Love Meter Messages
+loveMessages: {
+    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
+    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
+    normal: "And beyond! 🥰"                           // Shows above 100%
+}
+
+// Final Celebration
+celebration: {
+    title: "Yay! I'm the luckiest person...",     // Celebration title
+    message: "Now come get your gift...",          // Celebration message
+    emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
+}
+
+// Website Colors
+colors: {
+    backgroundStart: "#cce9ff",      // Background gradient start
+    backgroundEnd: "#8fc6ef",        // Background gradient end
+    buttonBackground: "#1867a5",     // Button color
+    buttonHover: "#cce9ff",          // Button hover color
+    textColor: "#003261"            // Text color
+}
+
+// Animation Settings
+animations: {
+    floatDuration: "15s",           // How long hearts float (10-20s)
+    floatDistance: "50px",          // Sideways movement (30-70px)
+    bounceSpeed: "0.5s",            // Bounce animation speed (0.3-0.7s)
+    heartExplosionSize: 1.5         // Final heart explosion size (1.2-2.0)
+}
+
+// Music Settings
+music: {
+    enabled: true, // Music feature is enabled
+    autoplay: true, // Try to autoplay (note: some browsers may block this)
+    musicUrl: "https://open.spotify.com/track/1GqZU8Isnm4Bwx7V3na5tO?si=fde812eeb68c4026", // Paste your music URL here
+    startText: "🎵 Play Music", // Button text to start music
+    stopText: "🔇 Stop Music", // Button text to stop music
+    volume: 0.5 // Volume level (0.0 to 1.0)
+}
